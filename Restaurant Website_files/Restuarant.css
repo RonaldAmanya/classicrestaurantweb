@@ -1,0 +1,124 @@
+*
+{
+  Margin: 0;
+  Padding: 0;
+  box-sizing: border-box;
+  font-family:"poppnis",sans-serif;
+}
+
+Body {
+  Font-family: Arial, sans-serif;
+  Line-height: 3;
+  color:blue;
+  background-color: bisque;
+}
+
+Header {
+  height:10vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding:1px 5%;
+  background: burlywood;
+  display: inline-flex;
+  justify-content:space-between;
+  align-items: center;
+  z-index: 10;
+}
+.logo{
+  position: relative;
+  font-size: 40px;
+  color:blueviolet;
+  text-decoration:underline;
+  font-weight: 50;
+  }
+
+Nav ul {
+  List-style-type: none;
+}
+
+Nav ul li {
+  Display: inline-block;
+  Margin-right: 55px;
+}
+
+Nav ul li a {
+  Color: green;
+  Text-decoration: none;
+  margin-left: 5px;
+  display: inline-block;
+  font-size: 25px;
+  font-weight: 50;
+}
+
+.hero {
+  Background-image: url(restaurant-hero.jpg);
+  Background-size: cover;
+  Background-position: center;
+  Text-align: center;
+  Color: brown;
+  Padding: 200px 0;
+}
+
+.cta {
+  Display: inline-block;
+  Padding: 10px 20px;
+  Background-color: #333;
+  Color: #fff;
+  Text-decoration: none;
+  Margin-top: 20px;
+}
+
+Section {
+  Padding: 100px 0;
+  Text-align: center;
+}
+
+H2 {
+  Margin-bottom: 30px;
+}
+
+.menu-item {
+  Margin-bottom: 50px;
+}
+
+.menu-item img {
+  Width: 300px;
+  Height: 200px;
+}
+
+Form {
+  Max-width: 500px;
+  Margin: 0 auto;
+}
+
+Input, textarea, button {
+  Display: block;
+  Width: 100%;
+  Padding: 10px;
+  Margin-bottom: 10px;
+  Border: 1px solid #333;
+}
+
+Input[type=”text”], input[type=”email”] {
+  Height: 40px;
+}
+
+Textarea {
+  Height: 120px;
+}
+
+Button {
+  Background-color: #333;
+  Color: #fff;
+  Border: none;
+  Cursor: pointer;
+}
+
+Footer {
+  Background-color: #333;
+  Color: #fff;
+  Padding: 20px;
+  Text-align: center;
+}
